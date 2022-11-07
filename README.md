@@ -12,8 +12,8 @@ Backend project for chatApp built using Node.js, Express and MongoDB
 #### Clone the repo and make it yours:
 
 ```bash
-git clone --depth 1 https://github.com/pateljanvi03/library-management-server
-cd library-management-server
+git clone --depth 1 https://github.com/pateljanvi03/chatapp-server
+cd chatapp-server
 ```
 
 #### Install dependencies:
