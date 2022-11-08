@@ -36,6 +36,7 @@ exports.create = async (req, res, next) => {
   try {
     const user = new User(req.body);
     const savedUser = await user.save();
+    console.log(user);
     res.json({ user: savedUser.transform() });
   } catch (error) {
     next(error);
